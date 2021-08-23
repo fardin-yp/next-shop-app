@@ -1,0 +1,111 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.items-title {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.items-title h1 {
+    opacity: 0.7;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size:17px;
+}
+.items-title hr {
+  height: 1px;
+  background-color: silver;
+  opacity: 0.6;
+}
+.holder {
+    width:75%;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2) , 0px 0px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-flow: column;
+    direction: rtl;
+    position: relative;
+}
+.holder a {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+}
+.Slider-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.slider-card {
+    width:22%;
+    height:340px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+.slider-card img {
+    width: 72%;
+    height: 50%;
+    margin-top: -60px;
+}
+.slider-card:hover {
+    transition: 0.3s ease;
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2) , 0px 0px 15px rgba(0,0,0,0.1);
+}
+.slider-card button {
+    padding: 12px 15px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 6px;
+    font-size: 13px;
+    font-family: "iran-sans";
+}
+
+.slider-card p {
+    width: 94%;
+    margin: 10px;
+    position: relative;
+    width: 98%;
+
+}
+.slider-card img {
+    width:98%;
+}
+.slider-card h1 {
+    position: relative;
+    text-align: left;
+    font-size:18px;
+}
+
+

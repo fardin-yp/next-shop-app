@@ -1,0 +1,345 @@
+@media(max-width:500px){
+    .footer-top ul {
+        width: 98%;
+        font-size:12px;
+    }
+    .mobile-menu {
+        display:flex;
+    }
+    .footer-top ul li {
+        padding:10px 4px;
+    }
+    .bottom {
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .nav-right h1 {
+       font-family:sans-serif;
+       font-size: 30px;
+       margin:30px 10%;
+       text-align: right;
+       cursor: pointer;
+   }
+   .navbar input {
+       display: none;
+   }
+   .nav-left img{
+      width: 100%;
+      height:60%;
+   }
+   .slider-card {
+       width: 49%;
+   }
+   .holder {
+       width: 90%;
+   }
+   .top{
+    flex-flow: column;
+    height:90vh;
+   }
+   .top-left {
+       width: 100%;
+       height: 350px;
+   }
+   .top-right {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+
+   }
+   .top-right a {
+       width: 90%;
+       right: 0px;
+   }
+   .top-left a {
+       width: 90%;
+       margin-left: 0%;
+       margin-top: 5px;
+       position: relative;
+       top: -5px;
+   }
+   .middle {
+       flex-flow: column;
+       height:350px;
+       width: 100%;
+   }
+   .middle a {
+       width: 90%;
+       height: 49%;
+   }
+   .bottom ul {
+       display:none
+   }
+   .bottom h1 {
+       display:none;
+   }
+   .bottom input {
+       display: block;
+   }
+   .slider-card p {
+       font-size: 14px;
+   }
+   .holder a { 
+    padding: 10px;
+    font-size: 13px;
+    margin-left: 15px;
+   }
+   .slider-card button {
+       padding:10px;
+       font-size:12px;
+   }
+   .slider-card:hover {
+    box-shadow:none;
+}
+   .full-post {
+       width: 90%;
+       align-items: center;
+       flex-flow: column;
+   }
+   .full-post img {
+       width: 100%;
+       
+   }
+   .detail {
+       width:96%;
+       align-items: center;
+   }
+   .price-detail {
+       width: 99%;
+   }
+   .body-cart {
+       flex-flow: column;
+       align-items: center;
+   }
+   .cart {
+       width: 90%;
+   }
+   .total-price {
+       width: 90%;
+   }
+   .cart-items {
+       flex-flow: column;
+       height:100%;
+   }
+   .cart img {
+       width: 55%;
+       height:50%;
+       margin-right: 5px;
+   }
+   .middle-cart {
+       width: 96%;
+   }
+   .edit-item {
+       align-items: center;
+       justify-content: space-evenly;
+       margin-top: 20px;
+   }
+   .cart-items h1 {
+       width: 100%;
+       margin-top:12px;
+       position: relative;
+       text-align:left;
+   }
+   .edit-item img {
+       width: 40%;
+   }
+   .edit-item label {
+       padding: 8px;
+   }
+   .page-container {
+       width: 90%;
+       margin-left: 5%;
+   }
+   .page-container a {
+      width: 50%;
+      height:100%;
+   }
+   .page-container a img {
+       width: 95%;
+       height:50%;
+   }
+   .item-box {
+       height:300px;
+   }
+}
+@media(min-width:501px) and (max-width:850px) {
+    .holder {
+        width: 90%;
+    }
+    .top-left a {
+        position: relative;
+        height: 47.5%;
+        width:80%;
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    .top-right a {
+        width:98%;
+        right: 8%;
+    }
+    .middle {
+        width: 90%;
+    }
+    .slider-card {
+        width: 32%;
+    }
+    .slider-card p {
+        font-size:13px;
+        width: 96%;
+    }
+    .nav-right h1 {
+        margin:30px 25px;
+        font-size:32px
+    }
+    .nav-left img {
+        width: 65%;
+        height: 60%;
+    }
+    .navbar input {
+        padding:5px 20px;
+        width: 130%;
+        margin-left: -35px;
+    }
+    .navbar ul {
+        width: 75%;
+    }
+    .bottom h1 {
+        width: 25%;
+        font-size:17px;
+    }
+    .navbar ul li {
+        font-size:13px;
+    }
+    .footer-top ul {
+        width: 90%;
+    }
+    .footer-top ul li {
+        padding: 14px 8px;
+        font-size: 13px;
+    }
+    .page-container {
+        width: 90%;
+        margin-left:5%;
+    }
+    .page-container a {
+        width: 33%;
+    }
+    .item-box {
+      height:320px;
+    }
+    .item-box img {
+        width: 95%;
+        height: 50%;
+    }
+    .item-box p {
+        font-size: 13px;
+        width: 98%;
+    }
+    .item-box h3 {
+        font-size:15px;
+    }
+    .body-cart {
+        flex-flow: column;
+    }
+    .cart{
+        width: 90%;
+        margin-left:5%;
+    }
+    .total-price {
+        width: 90%;
+        margin-left:5%;
+    }
+    .cart-items h1 {
+        font-size: 15px;
+    }
+    .cart-items img {
+        width: 35%;
+        margin-right: 0;
+    }
+    .edit-item {
+        width: 65%;
+        margin-top: -10px;
+    }
+    .edit-item img {
+        width: 100%;
+    }
+
+}
+@media(min-width:851px) and (max-width:1000px) {
+    .page-container {
+        width: 90%;
+    }
+    .holder {
+        width: 90%;
+    }
+    .footer ul {
+        width: 75%;
+    }
+    .slider-card {
+        width: 23.9%;
+    }
+    .slider-card img {
+        width: 99%;
+    }
+    .slider-card p {
+        font-size:15px;
+    }
+    .middle {
+        width: 90%;
+    }
+    .top-right a {
+        width: 100%;
+    }
+    .top-left a {
+        width: 78.5%;
+        margin-left: -1.5%;
+    }
+    .bottom ul {
+        width: 65%;
+    }
+    .bottom h1 {
+        width: 22%;
+    }
+    .nav-left img {
+        width: 56%;
+    }
+    .nav-right h1 {
+        margin: 20px 25px;
+    }
+    .total-price {
+        width: 29%;
+    }
+    .cart {
+        width: 69%;
+    }
+    .cart h1 {
+        font-size: 17px;
+    }
+    .cart img {
+        width: 43%;
+        margin-right: 0px;
+    }
+    .edit-item img {
+        width: 80%;
+    }
+    .cart-items p {
+        font-size:15px;
+    }
+    .page-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .page-container img {
+        width:95%;
+        height:50%;
+    }
+}
+@media(min-width:1001px) and (max-width:1400px) {
+    .footer ul {
+        width: 62%;
+    }
+    .nav-right h1 {
+        margin:20px 30px;
+    }
+}
