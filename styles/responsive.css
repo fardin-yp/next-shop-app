@@ -36,7 +36,7 @@
    }
    .top{
     flex-flow: column;
-    height:90vh;
+    height:100%;
    }
    .top-left {
        width: 100%;
